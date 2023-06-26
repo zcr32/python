@@ -1,0 +1,84 @@
+body{
+    background-color: #333;  /*  背景色  */
+    margin:0px ;   /* 上下左右边距都为0  */
+}
+/*  #title  id选择器  */
+#title{
+    height: 10%;  /*  div高度  10%*/
+    width: 40%;   /*  div宽度40%  */
+    position: absolute;  /*  绝对定位 */
+    top: 0px;  /*  设置div距离顶部0px */
+    left: 30%; /*  设置div距离左侧为30% */
+    display: flex; /*  设置弹性布局 ,以最大限度填充可用空间 */
+    align-items:center; /*  弹性布局   垂直布局居中对齐各项 */
+    justify-content: center; /* 弹性布局  水平布局居中对齐各项 */
+    color: white;  /*  字体颜色 */
+    font-size: 40px;  /* 字体大小 */
+}
+#time{
+    height: 10%;
+    width: 30%;
+    top:0;
+    right: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: white;
+}
+#left1{
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+#left2{
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 55%;
+}
+#right1{
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+#right2{
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 55%;
+}
+
+#center1{
+    height: 30%;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+#center2{
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+/*  类选择器  .num */
+.num{
+    float: left; /* 左浮动 */
+    width: 25%;
+    height: 100%;
+    text-align: center;  /*  把html元素中的文本排列到中间  */
+}
+.num h1{
+    color: gold;   /* h1标记里的文字是金黄色 */
+}
+.num h2{
+    color: white;
+    font-family:幼圆;
+}
